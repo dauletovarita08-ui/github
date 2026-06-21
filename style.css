@@ -1,0 +1,92 @@
+*{
+box-sizing:border-box;
+margin:0;
+padding:0;
+}
+nav,footer{
+width: 100%;
+height:60px;
+background-color:orange;
+border-radius:20px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px;
+}
+.nav{
+height:50px;
+width:50px;
+border-radius:20px;
+}
+h1{
+display:flex;
+gap:10px;
+align-items:center;
+}
+ul{
+list-style: none;
+display:flex;
+gap:10px;
+}
+li:hover{
+background-color:black;
+color:orange;
+height:20px;
+border-radius:20px;
+}
+header{
+background-image:url("https://img.freepik.com/premium-photo/japanese-torii-gate-sunset-with-silhouetted-landscape_1282444-100316.jpg?semt=ais_hybrid");
+color:orange;
+border-radius:20px;
+justify-content:center;
+display:flex;
+align-items:center;
+padding:20px;
+height: 350px;
+width:100%;
+flex-direction:column;
+}
+button{
+background-color:orange;
+border-radius:20px;
+cursor:help;
+}
+.container{
+width:213px;
+height:450px;
+background-color: orange;
+border:2px solid black;
+border-radius:20px;
+padding:10px;
+}
+.ota{
+display:flex;
+}
+.ona{
+display:flex;
+}
+.rasm{
+height:150px;
+width:190px
+}
+main{
+display:flex;
+height:200px;
+width:100%;
+background-image:url("https://img.freepik.com/free-photo/abstract-surface-textures-white-concrete-stone-wall_74190-8189.jpg?semt=ais_hybrid&w=740&q=80");
+color:orange;
+}
+.naruto{
+height:200px;
+border-radius:20px;
+}
+section{
+display: flex;
+}
+article{
+height:40px;
+width:50%;
+background-color: orange;
+border:2px solid black;
+text-align:center;
+}
